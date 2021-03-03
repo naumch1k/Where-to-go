@@ -1,0 +1,22 @@
+.place__description {
+  width: 100%;
+  padding: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .place__description {
+    flex-direction: row;
+    padding: 30px 45px 90px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place__description {
+    flex-direction: column;
+    padding: 15px 30px 30px;
+  }
+}
