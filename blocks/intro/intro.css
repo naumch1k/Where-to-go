@@ -1,0 +1,10 @@
+.intro {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  /* height: 100vh; */
+  min-height: 500px;
+  /* max-height: 756px; */
+  /* position: relative; */
+}

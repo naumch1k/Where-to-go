@@ -1,0 +1,4 @@
+.place__image_reverse {
+  grid-column-start: -1;
+  grid-row-start: 1;
+}
