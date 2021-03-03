@@ -1,6 +1,12 @@
 .place {
   margin: 0;
   display: grid;
-  grid-template-columns: 555px 1fr;
-  /* gap: 48px 40px; */
+  max-width: 1120px;
+  grid-template-columns: repeat(2, minmax(50%, 560px));
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
 }
