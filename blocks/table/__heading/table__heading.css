@@ -1,0 +1,12 @@
+.table__heading {
+  margin: 0 0 20px;
+  font-size: 10px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .table__heading {
+    margin: 0 0 10px;
+  }
+}

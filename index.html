@@ -15,50 +15,49 @@
         <li><a class="header__link" href="#" target="_self">Реальность</a></li>
       </ul>
     </nav>
-    <a class="header__button">Пожаловаться</a> <!-- надо подумать, чем разметить это, по идее это
-      содержится в техзаданиях: типо это ссылка на др страницу или это ссылка-кнопка,
-    которая открывает модальное окно -->
+    <a class="header__button">Пожаловаться</a>
   </header>
-
   <main>
     <section class="intro">
-      <div class="intro__text">
-        <p class="section-subtitle intro__subtitle">Куда я поеду</p>
-        <h1 class="section-title intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
-      </div>
-      <img class="intro__image" src="./images/intro-image.jpeg" alt="Хвост самолета высоко над землей, солнце пробивается сквозь густые облака" width="310" height="310">
+      <h1 class="section-title section-title_place_intro">Куда я поеду</h1>
+      <p class="section-subtitle section-subtitle_place_intro">Куда я поеду сразу, как можно будет куда-то поехать</p>
+      <img class="intro__image" src="./images/intro-image.jpeg" alt="Хвост самолета высоко над землей, солнце пробивается сквозь густые облака">
     </section>
-
     <section class="places">
       <article class="place">
         <img class="place__image" src="./images/places-forest.jpeg" alt="Парень в лесу смотрит на невероятно красивый водопад" width="555" height="465">
         <div class="place__description">
           <h3 class="place__title">Поеду в лес</h3>
-          <p class="place__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
-          <p class="place__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          <div class="place__paragraphs">
+            <p class="place__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+            <p class="place__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          </div>
         </div>
       </article>
       <article class="place">
         <img class="place__image place__image_reverse" src="./images/places-mountains.jpeg" alt="Парень смотрит на заснеженную горуб темнеет" width="555" height="465">
-        <div class="place__description ">
+        <div class="place__description">
           <h3 class="place__title">Поеду в горы</h3>
-          <p class="place__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+          <div class="place__paragraphs">
+            <p class="place__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+          </div>
         </div>
       </article>
       <article class="place">
         <img class="place__image" src="./images/places-black-sea.jpeg" alt="Девушка смотрит на море, штиль, скоро закат" width="555" height="465">
         <div class="place__description">
           <h3 class="place__title">Поеду на Чёрное море</h3>
-          <p class="place__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову..</p>
-          <p class="place__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
-          <p class="place__paragraph">Уеду я.</p>
+          <div class="place__paragraphs">
+            <p class="place__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову..</p>
+            <p class="place__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+            <p class="place__paragraph">Уеду я.</p>
+          </div>
         </div>
       </article>
     </section>
-
     <section class="people">
-      <h2 class="section-title">Люди</h2>
-      <p class="section-subtitle">Что говорят и говорили люди о путешествиях</p>
+      <h2 class="section-title section-title_place_people">Люди</h2>
+      <p class="section-subtitle section-subtitle_place_people">Что говорят и говорили люди о путешествиях</p>
       <ul class="table">
         <li class="table__cell">
           <h3 class="table__heading">Иван Бунин</h3>
