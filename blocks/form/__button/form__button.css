@@ -6,14 +6,26 @@
   color:  #F2F2F2;
   box-sizing: border-box;
   min-height: 30px;
-  /* justify-self: flex-end; */
-
 }
 
 .form__button:hover {
   background-color: #FFFAFA;
-  color:  black;
+  color: black;
   border: .5px solid black;
   cursor: pointer;
   transition: background-color .5s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .form__button {
+    background-color: #FFFAFA;
+    color: black;
+    font-weight: 600;
+  }
+
+  .form__button:hover {
+    background-color: black;
+    color: #FFFAFA;
+    border: .5px solid #FFFAFA;
+  }
 }

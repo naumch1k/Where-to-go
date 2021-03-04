@@ -17,6 +17,42 @@
   color: black;
 }
 
+/* для Safari и Chrome */
+.form__item::-webkit-input-placeholder {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: black;
+}
+
+/* для Firefox */
+.form__item::-moz-placeholder {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: black;
+}
+
+/* для IE */
+.form__item::-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: black;
+}
+
 .form__item:focus::placeholder {
+  color:transparent;
+}
+
+.form__item:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+
+.form__item:focus::-moz-placeholder {
+  color:transparent;
+}
+
+.form__item:focus::-ms-input-placeholder {
   color:transparent;
 }
