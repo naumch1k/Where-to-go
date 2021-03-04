@@ -1,3 +1,21 @@
 .form__item_why {
   min-height: 89px;
+  resize: none;
 }
+
+
+/* textarea::-webkit-input-placeholder {
+  margin-left: 14px;
+  text-overflow: ellipsis;
+  opacity: 1;
+  color: black;
+  transition: opacity 0.3s ease;
+
+}
+
+textarea::placeholder:focus {
+  color: transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+} */
