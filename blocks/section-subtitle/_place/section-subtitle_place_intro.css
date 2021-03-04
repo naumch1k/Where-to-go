@@ -1,0 +1,27 @@
+.section-subtitle_place_intro {
+  max-width: 445px;
+  position: absolute;
+  top: 173px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1023px) {
+  .section-subtitle_place_intro {
+    text-shadow: white 1px 1px 1px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-subtitle_place_intro {
+    margin: 0 60px 0 10px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .section-subtitle_place_intro {
+    margin: 0 60px 0 20px;
+    font-size: 22px;
+    font-weight: 900;
+  }
+}
+
