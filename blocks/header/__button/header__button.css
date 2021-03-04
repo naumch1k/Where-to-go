@@ -1,5 +1,6 @@
 .header__button {
   transition: transform 1s linear;
+  cursor: pointer;
 }
 
 .header__button:hover {
