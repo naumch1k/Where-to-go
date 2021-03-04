@@ -84,15 +84,22 @@
         </li>
       </ul>
     </section>
-    <section class="direction">
-      <h2 class="direction__title">Так куда же я поеду?</h2>
-      <form>
-        <input type="text" placeholder="Я поеду ...">
-        <textarea rows="5" placeholder="Потому что я ..."></textarea>
-        <button>Поехали уже куда-нибудь!</button>
+
+    <section class="form">
+      <h2 class="form__title">Так куда же я поеду?</h2>
+      <form class="form__container">
+        <fieldset class="form__input-container">
+          <input class="form__item form__item_where" type="text" placeholder="Я поеду ..." required>
+          <textarea class="form__item form__item_why" placeholder="Потому что я ..." required></textarea>
+          <!-- rows="5"  -->
+        </fieldset>
+        <fieldset class="form__buttons">
+          <button class="form__button" type="submit">Поехали уже куда-нибудь!</button>
+        </fieldset>
       </form>
-      <img class="direction__image" src="./images/airport-schedule.jpg" alt="Табло вылетов в аэропорту" width="555" height="540">
+      <!-- <img class="direction__image" src="./images/airport-schedule.jpg" alt="Табло вылетов в аэропорту" width="555" height="540"> -->
     </section>
+
     <section class="video">
       <h2 class="video__title">А пока что - всё ещё сидим дома!</h2>
       <iframe class="video__iframe"></iframe>

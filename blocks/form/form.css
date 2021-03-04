@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  background-image: url(../../images/airport-schedule.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50% 100%;
+  min-height: 545px;
+
+
+}

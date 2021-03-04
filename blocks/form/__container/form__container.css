@@ -1,0 +1,10 @@
+.form__container {
+  width: calc((50% - 65px) * .62);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-left: 65px;
+  border: none;
+  box-sizing: border-box;
+}

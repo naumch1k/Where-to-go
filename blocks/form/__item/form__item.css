@@ -1,0 +1,23 @@
+.form__item {
+  padding: 0;
+  margin: 0 0 16px 0;
+  border: none;
+  background-color: #FFFAFA;
+
+
+}
+
+input::placeholder {
+  text-overflow: ellipsis;
+  opacity: 1;
+  color: black;
+  /* transition: opacity 0.3s ease; */
+
+}
+
+input::placeholder:focus {
+  color: transparent;
+  opacity: 0;
+  /* transition: opacity 0.3s ease; */
+
+}
