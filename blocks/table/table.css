@@ -1,0 +1,9 @@
+.table {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: 40px;
+  list-style: none;
+}
+

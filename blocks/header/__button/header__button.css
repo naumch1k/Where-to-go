@@ -1,0 +1,13 @@
+.header__button {
+  transition: transform 1s linear;
+}
+
+.header__button:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 424px) {
+  .header__button {
+    color: #fed2b2;
+  }
+}
