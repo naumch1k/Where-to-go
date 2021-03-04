@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 424px) {
   .header__links {
-    gap: 30px;
     flex-direction: column;
+    gap: 28px;
   }
 }

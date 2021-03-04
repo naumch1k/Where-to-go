@@ -4,3 +4,9 @@
   font-size: 12px;
   line-height: 1.45;
 }
+
+@media screen and (max-width: 424px) {
+  .table__text  {
+    font-size: 10px;
+  }
+}

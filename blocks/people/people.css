@@ -1,6 +1,5 @@
 .people {
   width: 100%;
-  /* width: calc(100% - 120px); */
   margin: 0 auto;
   padding: 118px 60px 110px;
   box-sizing: border-box;
@@ -8,21 +7,12 @@
 
 @media screen and (max-width: 1023px) {
   .people {
-    /* width: calc(100% - 80px); */
     padding: 100px 40px 90px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .people {
-
-    /* width: 100%; */
-    
   }
 }
 
 @media screen and (max-width: 424px) {
   .people {
-    padding: 40px 20px 50px;
+    padding: 40px 30px 50px;
   }
 }

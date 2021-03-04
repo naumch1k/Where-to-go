@@ -4,3 +4,9 @@
   font-size: 28px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 424px) {
+  .footer__paragraph {
+    font-size: 22px;
+  }
+}
