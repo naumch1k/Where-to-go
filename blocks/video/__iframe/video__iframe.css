@@ -1,0 +1,35 @@
+.video__iframe {
+  width: 100%;
+  min-height: 545px;
+  border: none;
+  vertical-align:bottom;
+}
+
+@media screen and (max-width: 1023px) {
+  .video__iframe {
+    min-height: 432px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .video__iframe {
+    min-height: 390px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .video__iframe {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .video__iframe {
+    min-height: 240px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__iframe {
+    min-height: 180px;
+  }
+}
