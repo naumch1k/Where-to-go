@@ -1,6 +1,6 @@
 .form__container {
-  width: calc((50% - 65px) * .62);
-  margin: 120px 0 0 65px;
+  width: calc((50% - 65px) * .63);
+  margin: 120px 0 0 60px;
   display: flex;
   flex-direction: column;
   border: none;
@@ -11,7 +11,7 @@
   .form__container {
     width: calc((50% - 60px) * .62);
     min-width: 252px;
-    margin: 60px 0 0 60px;
+    margin: 60px;
   }
 }
 
@@ -25,8 +25,6 @@
 @media screen and (max-width: 424px) {
   .form__container {
     width: calc(100% - 20px * 2);
-    /* margin: 20px; */
-    margin: 20px 20px 35px; /* Сверху визуально кажется, что паддинг начинается не от заглавной буквы, а строчных;
-    и создается впечатление, что нижний меньше - выбирай сама*/
+    margin: 40px 20px;
   }
 }
