@@ -17,15 +17,15 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
+    font-weight: 900;
+    /* но как будто на маленьких разрешениях bold хорошо смотрятся;*/
     font-size: 25px;
+    margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .place__title {
-    font-weight: 900;
-    /* как будто на маленьких разрешениях bold хорошо смотрятся; если не нравится, нужно будет и в других секциях поменять, чтобы страница однородно смотрелась*/
-    margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 18px;
   }
 }

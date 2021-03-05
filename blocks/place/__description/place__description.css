@@ -9,14 +9,14 @@
 
 @media screen and (max-width: 767px) {
   .place__description {
-    flex-direction: row;
-    padding: 30px 45px 90px;
+    /* flex-direction: row; */ 
+    padding: 70px 45px 20px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .place__description {
-    flex-direction: column;
-    padding: 15px 30px 30px;
+    /* flex-direction: column; */
+    padding: 45px 30px 15px;
   }
 }

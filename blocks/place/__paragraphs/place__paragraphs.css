@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
   .place__paragraphs {
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    align-self: flex-end; /**/
   }
 }
 
