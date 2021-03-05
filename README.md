@@ -1,4 +1,4 @@
-# Путешествия по России
+# Куда я поеду
 ![HTML5](./images/readme-icons/HTML-5-orange.svg) ![CSS3](./images/readme-icons/CSS-3-green.svg) ![Я.Практикум](./images/readme-icons/Я.-Практикум-blue.svg)
 
 https://naumch1k.github.io/Where-to-go/index.html
