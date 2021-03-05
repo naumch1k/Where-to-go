@@ -10,8 +10,15 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place__image {
+    grid-row: 2;
+  }
+}
+
 @media screen and (max-width: 424px) {
   .place__image {
     height: 320px;
   }
 }
+
